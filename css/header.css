@@ -1,3 +1,16 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -5,6 +18,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  width: 115px;
+  margin-right: 76px;
 }
 
 .header-logo .accent {
@@ -12,11 +27,24 @@
 }
 
 .nav-items {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 40px;
+  width: 253px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.contacts-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  width: 344px;
 }
 
 .nav-items-link:hover,
@@ -32,4 +60,12 @@
 .contacts {
   font-style: normal;
   letter-spacing: 0.02em;
+  margin-left: auto;
+}
+
+.nav-items-link,
+.contacts-link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
