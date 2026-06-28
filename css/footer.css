@@ -1,5 +1,24 @@
 .footer {
   background-color: #2e2f42;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer-logo {
@@ -18,4 +37,5 @@
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
 }
