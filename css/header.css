@@ -18,7 +18,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  width: 115px;
   margin-right: 76px;
 }
 
@@ -31,7 +30,6 @@
   justify-content: flex-start;
   align-content: flex-start;
   gap: 40px;
-  width: 253px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -44,7 +42,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: 40px;
-  width: 344px;
 }
 
 .nav-items-link:hover,
